@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.abdelhalim.withme.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        android:ems="12"
+        android:id="@+id/FnEtx"
+        />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        android:ems="12"
+        android:id="@+id/LnEtx"
+        />
+
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="12"
+        android:text="Email"
+        android:id="@+id/EmailEtx" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+        android:layout_height="wrap_content"
+        android:inputType="textVisiblePassword"
+        android:ems="12"
+        android:id="@+id/PassEtx" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Confirmation Password"
+        android:layout_height="wrap_content"
+        android:inputType="textVisiblePassword"
+        android:ems="12"
+        android:id="@+id/ConPassEtx" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="Phone"
+        android:ems="10"
+        android:id="@+id/PhoneEtx" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Region: "
+        android:paddingLeft="20dp"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:ems="12"
+            android:id="@+id/StrEtx" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Region"
+            android:ems="12"
+            android:id="@+id/RegEtx" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Governement"
+            android:ems="12"
+            android:id="@+id/GovEtx" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"/>
+    </RelativeLayout>
+</LinearLayout>
